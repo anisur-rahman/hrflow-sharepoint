@@ -13,6 +13,42 @@ All people, contact details, documents and announcements are fictional. Emails u
 - 3 news posts
 - Black and white theme, header, footer and logo
 
+## Screenshots
+
+Captured from the deployed test site as the site owner, so editing controls are visible. Select a picture to see it full size.
+
+### Home
+
+![Home page](screenshots/home.png)
+
+### Pages
+
+| Human Resources | IT Department | Finance |
+|---|---|---|
+| <a href="screenshots/hr.png"><img src="screenshots/hr.png" alt="Human Resources" width="260"></a> | <a href="screenshots/it.png"><img src="screenshots/it.png" alt="IT Department" width="260"></a> | <a href="screenshots/finance.png"><img src="screenshots/finance.png" alt="Finance" width="260"></a> |
+| **Training** | **FAQ** | **Contact** |
+| <a href="screenshots/training.png"><img src="screenshots/training.png" alt="Training" width="260"></a> | <a href="screenshots/faq.png"><img src="screenshots/faq.png" alt="FAQ" width="260"></a> | <a href="screenshots/contact.png"><img src="screenshots/contact.png" alt="Contact" width="260"></a> |
+| **Employee Directory** | **Leave Requests** | **Benefits** |
+| <a href="screenshots/employee-directory.png"><img src="screenshots/employee-directory.png" alt="Employee Directory" width="260"></a> | <a href="screenshots/leave-requests.png"><img src="screenshots/leave-requests.png" alt="Leave Requests" width="260"></a> | <a href="screenshots/benefits.png"><img src="screenshots/benefits.png" alt="Benefits" width="260"></a> |
+| **Onboarding** | **IT Support** | **IT FAQ** |
+| <a href="screenshots/onboarding.png"><img src="screenshots/onboarding.png" alt="Onboarding" width="260"></a> | <a href="screenshots/it-support.png"><img src="screenshots/it-support.png" alt="IT Support" width="260"></a> | <a href="screenshots/it-faq.png"><img src="screenshots/it-faq.png" alt="IT FAQ" width="260"></a> |
+| **Expenses** |  |  |
+| <a href="screenshots/expenses.png"><img src="screenshots/expenses.png" alt="Expenses" width="260"></a> |  |  |
+
+### Forms
+
+| Leave request | IT request | Expense claim |
+|---|---|---|
+| <a href="screenshots/form-leave-requests.png"><img src="screenshots/form-leave-requests.png" alt="Leave request" width="260"></a> | <a href="screenshots/form-it-support.png"><img src="screenshots/form-it-support.png" alt="IT request" width="260"></a> | <a href="screenshots/form-expenses.png"><img src="screenshots/form-expenses.png" alt="Expense claim" width="260"></a> |
+| **Training registration** | **HR question** |  |
+| <a href="screenshots/form-training.png"><img src="screenshots/form-training.png" alt="Training registration" width="260"></a> | <a href="screenshots/form-contact.png"><img src="screenshots/form-contact.png" alt="HR question" width="260"></a> |  |
+
+### News
+
+| Company news | Policy update | Training news |
+|---|---|---|
+| <a href="screenshots/news-denver-office.png"><img src="screenshots/news-denver-office.png" alt="Company news" width="260"></a> | <a href="screenshots/news-remote-work.png"><img src="screenshots/news-remote-work.png" alt="Policy update" width="260"></a> | <a href="screenshots/news-security-training.png"><img src="screenshots/news-security-training.png" alt="Training news" width="260"></a> |
+
 ## Files
 
 | File | Purpose |
@@ -21,6 +57,7 @@ All people, contact details, documents and announcements are fictional. Emails u
 | `demo-content.json` | Sample list entries and news posts |
 | `documents/` | Sample Word documents, one folder per library |
 | `site-logo.svg` | Header logo |
+| `screenshots/` | Pictures used in this README |
 | `deploy.ps1` | Provisions everything above |
 
 ## Setup
