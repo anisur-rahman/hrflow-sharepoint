@@ -1,0 +1,378 @@
+{
+  "items": {
+    "Employee Directory": [
+      {
+        "Title": "Maya Torres",
+        "Department": "HR",
+        "JobTitle": "HR Director",
+        "Office": "New York",
+        "BusinessEmail": "maya.torres@example.com",
+        "Phone": "(212) 555-0140"
+      },
+      {
+        "Title": "Daniel Osei",
+        "Department": "HR",
+        "JobTitle": "HR Business Partner",
+        "Office": "Denver",
+        "BusinessEmail": "daniel.osei@example.com",
+        "Phone": "(212) 555-0141"
+      },
+      {
+        "Title": "Priya Raman",
+        "Department": "HR",
+        "JobTitle": "Talent Specialist",
+        "Office": "Remote",
+        "BusinessEmail": "priya.raman@example.com",
+        "Phone": "(212) 555-0142"
+      },
+      {
+        "Title": "Owen Blake",
+        "Department": "HR",
+        "JobTitle": "Training Coordinator",
+        "Office": "New York",
+        "BusinessEmail": "owen.blake@example.com",
+        "Phone": "(212) 555-0143"
+      },
+      {
+        "Title": "Lena Fischer",
+        "Department": "IT",
+        "JobTitle": "IT Director",
+        "Office": "New York",
+        "BusinessEmail": "lena.fischer@example.com",
+        "Phone": "(212) 555-0144"
+      },
+      {
+        "Title": "Marcus Hill",
+        "Department": "IT",
+        "JobTitle": "Support Engineer",
+        "Office": "Denver",
+        "BusinessEmail": "marcus.hill@example.com",
+        "Phone": "(212) 555-0145"
+      },
+      {
+        "Title": "Sofia Alvarez",
+        "Department": "IT",
+        "JobTitle": "Systems Administrator",
+        "Office": "Remote",
+        "BusinessEmail": "sofia.alvarez@example.com",
+        "Phone": "(212) 555-0146"
+      },
+      {
+        "Title": "Jin Park",
+        "Department": "IT",
+        "JobTitle": "Security Analyst",
+        "Office": "New York",
+        "BusinessEmail": "jin.park@example.com",
+        "Phone": "(212) 555-0147"
+      },
+      {
+        "Title": "Grace Mensah",
+        "Department": "Finance",
+        "JobTitle": "Finance Director",
+        "Office": "New York",
+        "BusinessEmail": "grace.mensah@example.com",
+        "Phone": "(212) 555-0148"
+      },
+      {
+        "Title": "Tom Whitaker",
+        "Department": "Finance",
+        "JobTitle": "Accountant",
+        "Office": "Denver",
+        "BusinessEmail": "tom.whitaker@example.com",
+        "Phone": "(212) 555-0149"
+      },
+      {
+        "Title": "Nadia Karim",
+        "Department": "Finance",
+        "JobTitle": "Payroll Specialist",
+        "Office": "Remote",
+        "BusinessEmail": "nadia.karim@example.com",
+        "Phone": "(212) 555-0150"
+      },
+      {
+        "Title": "Ethan Cole",
+        "Department": "Finance",
+        "JobTitle": "Purchasing Analyst",
+        "Office": "New York",
+        "BusinessEmail": "ethan.cole@example.com",
+        "Phone": "(212) 555-0151"
+      }
+    ],
+    "IT Support Requests": [
+      {
+        "Title": "Laptop battery drains quickly",
+        "Category": "Hardware",
+        "Priority": "Medium",
+        "Status": "In Progress",
+        "Description": "Battery lasts about one hour."
+      },
+      {
+        "Title": "Access to the payroll report",
+        "Category": "Access",
+        "Priority": "High",
+        "Status": "New",
+        "Description": "Needed for month-end close."
+      },
+      {
+        "Title": "Install design software",
+        "Category": "Software",
+        "Priority": "Low",
+        "Status": "Closed",
+        "Description": "Approved by manager."
+      },
+      {
+        "Title": "Second monitor for Denver desk",
+        "Category": "Hardware",
+        "Priority": "Low",
+        "Status": "New",
+        "Description": "New desk setup."
+      },
+      {
+        "Title": "VPN disconnects",
+        "Category": "Software",
+        "Priority": "High",
+        "Status": "In Progress",
+        "Description": "Drops every 20 minutes when working remotely."
+      },
+      {
+        "Title": "New employee account setup",
+        "Category": "Access",
+        "Priority": "Medium",
+        "Status": "Closed",
+        "Description": "Starts December 1."
+      }
+    ],
+    "Leave Requests Demo": [
+      {
+        "Title": "Daniel Osei",
+        "StartDate": "2026-12-21T12:00:00",
+        "EndDate": "2026-12-31T12:00:00",
+        "LeaveType": "Vacation",
+        "Status": "Approved",
+        "Reason": "Year-end travel"
+      },
+      {
+        "Title": "Sofia Alvarez",
+        "StartDate": "2026-12-07T12:00:00",
+        "EndDate": "2026-12-08T12:00:00",
+        "LeaveType": "Personal",
+        "Status": "Pending",
+        "Reason": "Home move"
+      },
+      {
+        "Title": "Tom Whitaker",
+        "StartDate": "2026-11-23T12:00:00",
+        "EndDate": "2026-11-24T12:00:00",
+        "LeaveType": "Sick",
+        "Status": "Approved",
+        "Reason": "Unwell"
+      },
+      {
+        "Title": "Priya Raman",
+        "StartDate": "2027-01-11T12:00:00",
+        "EndDate": "2027-01-15T12:00:00",
+        "LeaveType": "Vacation",
+        "Status": "Pending",
+        "Reason": "Family visit"
+      },
+      {
+        "Title": "Ethan Cole",
+        "StartDate": "2026-12-14T12:00:00",
+        "EndDate": "2026-12-18T12:00:00",
+        "LeaveType": "Vacation",
+        "Status": "Rejected",
+        "Reason": "Overlaps year-end purchasing"
+      }
+    ],
+    "Expense Claims Demo": [
+      {
+        "Title": "Client lunch",
+        "ClaimEmployee": "Maya Torres",
+        "Amount": 84.5,
+        "ExpenseType": "Meals",
+        "ExpenseDate": "2026-11-10T12:00:00",
+        "Status": "Paid"
+      },
+      {
+        "Title": "Train to Boston",
+        "ClaimEmployee": "Jin Park",
+        "Amount": 126,
+        "ExpenseType": "Travel",
+        "ExpenseDate": "2026-11-16T12:00:00",
+        "Status": "Approved"
+      },
+      {
+        "Title": "Hotel, two nights",
+        "ClaimEmployee": "Lena Fischer",
+        "Amount": 418,
+        "ExpenseType": "Hotel",
+        "ExpenseDate": "2026-11-17T12:00:00",
+        "Status": "Submitted"
+      },
+      {
+        "Title": "Desk supplies",
+        "ClaimEmployee": "Owen Blake",
+        "Amount": 42.75,
+        "ExpenseType": "Supplies",
+        "ExpenseDate": "2026-11-18T12:00:00",
+        "Status": "Approved"
+      },
+      {
+        "Title": "Certification exam",
+        "ClaimEmployee": "Marcus Hill",
+        "Amount": 250,
+        "ExpenseType": "Training",
+        "ExpenseDate": "2026-11-20T12:00:00",
+        "Status": "Submitted"
+      }
+    ],
+    "Training Courses Demo": [
+      {
+        "Title": "Security Awareness",
+        "Format": "Online",
+        "Duration": "45 minutes",
+        "CourseDate": "2026-12-03T12:00:00",
+        "CourseType": "Required"
+      },
+      {
+        "Title": "Workplace Conduct",
+        "Format": "Online",
+        "Duration": "60 minutes",
+        "CourseDate": "2026-12-08T12:00:00",
+        "CourseType": "Required"
+      },
+      {
+        "Title": "Data Privacy Basics",
+        "Format": "Virtual",
+        "Duration": "45 minutes",
+        "CourseDate": "2026-12-10T12:00:00",
+        "CourseType": "Required"
+      },
+      {
+        "Title": "Excel for Business",
+        "Format": "Classroom",
+        "Duration": "Half day",
+        "CourseDate": "2026-12-15T12:00:00",
+        "CourseType": "Optional"
+      },
+      {
+        "Title": "Leading Your First Team",
+        "Format": "Classroom",
+        "Duration": "One day",
+        "CourseDate": "2027-01-12T12:00:00",
+        "CourseType": "Optional"
+      },
+      {
+        "Title": "Giving Useful Feedback",
+        "Format": "Virtual",
+        "Duration": "90 minutes",
+        "CourseDate": "2027-01-20T12:00:00",
+        "CourseType": "Optional"
+      }
+    ],
+    "Training Registrations Demo": [
+      {
+        "Title": "Marcus Hill",
+        "Course": "Security Awareness",
+        "PreferredDate": "2026-12-03T12:00:00",
+        "Status": "Confirmed"
+      },
+      {
+        "Title": "Nadia Karim",
+        "Course": "Excel for Business",
+        "PreferredDate": "2026-12-15T12:00:00",
+        "Status": "Requested"
+      },
+      {
+        "Title": "Priya Raman",
+        "Course": "Leading Your First Team",
+        "PreferredDate": "2027-01-12T12:00:00",
+        "Status": "Requested"
+      }
+    ],
+    "Onboarding Checklist Demo": [
+      {
+        "Title": "Sign offer letter and HR forms",
+        "Phase": "Before day one",
+        "TaskOwner": "New employee",
+        "Status": "Done"
+      },
+      {
+        "Title": "Order laptop and accounts",
+        "Phase": "Before day one",
+        "TaskOwner": "IT",
+        "Status": "Done"
+      },
+      {
+        "Title": "Welcome meeting",
+        "Phase": "First day",
+        "TaskOwner": "HR",
+        "Status": "In progress"
+      },
+      {
+        "Title": "Set up multi-factor authentication",
+        "Phase": "First day",
+        "TaskOwner": "New employee",
+        "Status": "Not started"
+      },
+      {
+        "Title": "Meet the team",
+        "Phase": "First week",
+        "TaskOwner": "Manager",
+        "Status": "Not started"
+      },
+      {
+        "Title": "Complete Security Awareness",
+        "Phase": "First week",
+        "TaskOwner": "New employee",
+        "Status": "Not started"
+      },
+      {
+        "Title": "Agree first goals",
+        "Phase": "First month",
+        "TaskOwner": "Manager",
+        "Status": "Not started"
+      }
+    ],
+    "HR Questions Demo": [
+      {
+        "Title": "Owen Blake",
+        "Topic": "Benefits",
+        "Question": "Can I change my dental plan during open enrollment?",
+        "Status": "Answered"
+      },
+      {
+        "Title": "Jin Park",
+        "Topic": "Leave",
+        "Question": "Do unused vacation days carry over?",
+        "Status": "New"
+      }
+    ]
+  },
+  "news": [
+    {
+      "slug": "Denver-Office",
+      "title": "HRFlow opens its new Denver office",
+      "body": [
+        "Our Denver office opens on January 11, 2027, with space for 40 employees.",
+        "Employees who want to visit can book a desk from January 4. Demo announcement for a fictional company."
+      ]
+    },
+    {
+      "slug": "Remote-Work",
+      "title": "Remote work policy updated for 2027",
+      "body": [
+        "From January 1, 2027, employees may work remotely up to three days a week with manager approval.",
+        "Read the Remote Work Policy in the HR Policies library. Demo announcement for a fictional company."
+      ]
+    },
+    {
+      "slug": "Security-Training",
+      "title": "Security Awareness sessions in December",
+      "body": [
+        "The next Security Awareness course is on December 3, 2026. It takes 45 minutes and is required for all employees.",
+        "Register from the Training page. Demo announcement for a fictional company."
+      ]
+    }
+  ]
+}

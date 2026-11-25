@@ -1,0 +1,804 @@
+{
+  "site": {
+    "title": "HRFlow Technologies",
+    "footer": "© 2026 HRFlow Technologies | Employee Services",
+    "logo": "site-logo.svg",
+    "theme": {
+      "name": "HRFlow Black and White",
+      "palette": {
+        "themePrimary": "#171717",
+        "themeLighterAlt": "#f8f8f8",
+        "themeLighter": "#e5e5e5",
+        "themeLight": "#cccccc",
+        "themeTertiary": "#999999",
+        "themeSecondary": "#444444",
+        "themeDarkAlt": "#141414",
+        "themeDark": "#101010",
+        "themeDarker": "#080808",
+        "neutralLighterAlt": "#fafafa",
+        "neutralLighter": "#f4f4f4",
+        "neutralLight": "#eaeaea",
+        "neutralQuaternaryAlt": "#dbdbdb",
+        "neutralQuaternary": "#d0d0d0",
+        "neutralTertiaryAlt": "#c8c8c8",
+        "neutralTertiary": "#595959",
+        "neutralSecondary": "#444444",
+        "neutralPrimaryAlt": "#333333",
+        "neutralPrimary": "#171717",
+        "neutralDark": "#111111",
+        "black": "#000000",
+        "white": "#ffffff"
+      }
+    }
+  },
+  "pages": [
+    {
+      "slug": "Home",
+      "title": "Welcome to HRFlow",
+      "icon": "Home",
+      "body": "Your central hub for employee services, documents and resources.",
+      "links": [],
+      "resources": [],
+      "navigation": true,
+      "home": {
+        "tagline": "EMPLOYEE DOCUMENTS & SERVICES HUB",
+        "eyebrow": "HRFLOW EMPLOYEE PORTAL",
+        "departmentsTitle": "Department resources",
+        "departments": [
+          {
+            "label": "Human Resources",
+            "slug": "HR"
+          },
+          {
+            "label": "IT Department",
+            "slug": "IT"
+          },
+          {
+            "label": "Finance",
+            "slug": "Finance"
+          },
+          {
+            "label": "Training",
+            "slug": "Training"
+          }
+        ],
+        "actions": [
+          {
+            "label": "Request Leave",
+            "slug": "Leave-Requests"
+          },
+          {
+            "label": "Employee Directory",
+            "slug": "Employee-Directory"
+          },
+          {
+            "label": "IT Support",
+            "slug": "IT-Support"
+          },
+          {
+            "label": "Expenses",
+            "slug": "Expenses"
+          },
+          {
+            "label": "Benefits",
+            "slug": "Benefits"
+          },
+          {
+            "label": "Onboarding",
+            "slug": "Onboarding"
+          }
+        ],
+        "documents": [
+          {
+            "label": "Employee Handbook",
+            "library": "HR Policies",
+            "file": "Employee Handbook.docx"
+          },
+          {
+            "label": "IT Security Policy",
+            "library": "IT Documents",
+            "file": "IT Security Policy.docx"
+          },
+          {
+            "label": "Expense Guidelines",
+            "library": "Finance Documents",
+            "file": "Expense Guidelines.docx"
+          },
+          {
+            "label": "Training Manual",
+            "library": "Training Resources",
+            "file": "Training Manual.docx"
+          }
+        ],
+        "announcements": [
+          {
+            "label": "Company news",
+            "title": "HRFlow opens its new Denver office",
+            "news": "Denver-Office"
+          },
+          {
+            "label": "Policy updates",
+            "title": "Remote work policy updated for 2027",
+            "news": "Remote-Work"
+          },
+          {
+            "label": "Upcoming training",
+            "title": "Security Awareness sessions in December",
+            "news": "Security-Training"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "HR",
+      "title": "Human Resources",
+      "icon": "People",
+      "body": "Everything you need for working at HRFlow: people, leave, benefits and policies.",
+      "links": [
+        "Employee-Directory",
+        "Leave-Requests",
+        "Benefits",
+        "Onboarding"
+      ],
+      "resources": [
+        "HR Policies"
+      ],
+      "navigation": true,
+      "content": [
+        {
+          "heading": "This month",
+          "bullets": [
+            "Open enrollment runs December 1 to 15",
+            "Submit year-end leave requests by December 11",
+            "Performance conversations are due by December 18"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "IT",
+      "title": "IT Department",
+      "icon": "PC1",
+      "body": "Get technical help, set up your devices and keep company information secure.",
+      "links": [
+        "IT-Support",
+        "IT-FAQ"
+      ],
+      "resources": [
+        "IT Documents"
+      ],
+      "navigation": true,
+      "content": [
+        {
+          "heading": "Service hours",
+          "bullets": [
+            "Monday to Friday, 8:00 AM to 6:00 PM",
+            "High priority requests: response within one hour",
+            "Other requests: response within one business day"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "Finance",
+      "title": "Finance",
+      "icon": "Bank",
+      "body": "Submit expenses, check spending limits and find purchasing guidance.",
+      "links": [
+        "Expenses"
+      ],
+      "resources": [
+        "Finance Documents"
+      ],
+      "navigation": true,
+      "content": [
+        {
+          "heading": "Key dates",
+          "bullets": [
+            "Expense cutoff: the 25th of each month",
+            "Claims are paid in the next pay cycle",
+            "Year-end purchase orders are due by December 14"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "Training",
+      "title": "Training",
+      "icon": "Education",
+      "body": "Build your skills with required and optional courses.",
+      "links": [],
+      "resources": [
+        "Training Courses Demo",
+        "Training Resources"
+      ],
+      "navigation": true,
+      "content": [
+        {
+          "heading": "How to take part",
+          "bullets": [
+            "Review the course list below",
+            "Submit a registration with your preferred date",
+            "Finish required courses within your first 30 days"
+          ]
+        }
+      ],
+      "form": {
+        "label": "Register for a course",
+        "list": "Training Registrations Demo"
+      }
+    },
+    {
+      "slug": "FAQ",
+      "title": "Frequently Asked Questions",
+      "icon": "Unknown",
+      "body": "Quick answers to common questions.",
+      "links": [
+        "Leave-Requests",
+        "IT-Support",
+        "Expenses",
+        "Training",
+        "Contact"
+      ],
+      "resources": [],
+      "navigation": true,
+      "faq": [
+        {
+          "q": "How do I request time off?",
+          "a": "Open HR, choose Leave Requests and submit the form. Your manager replies within two business days."
+        },
+        {
+          "q": "How do I get IT help?",
+          "a": "Open IT, choose IT Support and submit a request."
+        },
+        {
+          "q": "How do I claim an expense?",
+          "a": "Open Finance, choose Expenses and submit a claim with the amount and date."
+        },
+        {
+          "q": "Where are company policies?",
+          "a": "Open HR to browse the HR Policies library."
+        },
+        {
+          "q": "How do I register for training?",
+          "a": "Open Training and choose Register for a course."
+        },
+        {
+          "q": "When is open enrollment?",
+          "a": "December 1 to 15 each year."
+        }
+      ]
+    },
+    {
+      "slug": "Contact",
+      "title": "Contact",
+      "icon": "Phone",
+      "body": "We are here to help. These are demo contact details for a fictional company.",
+      "links": [],
+      "resources": [],
+      "navigation": true,
+      "content": [
+        {
+          "heading": "Human Resources",
+          "bullets": [
+            "Email: hr@example.com",
+            "Phone: (212) 555-0110",
+            "Monday to Friday, 9:00 AM to 5:30 PM"
+          ]
+        },
+        {
+          "heading": "IT Support",
+          "bullets": [
+            "Email: it@example.com",
+            "Phone: (212) 555-0120",
+            "Monday to Friday, 8:00 AM to 6:00 PM"
+          ]
+        },
+        {
+          "heading": "Finance",
+          "bullets": [
+            "Email: finance@example.com",
+            "Phone: (212) 555-0130",
+            "Monday to Friday, 9:00 AM to 5:00 PM"
+          ]
+        }
+      ],
+      "form": {
+        "label": "Ask HR a question",
+        "list": "HR Questions Demo"
+      }
+    },
+    {
+      "slug": "Employee-Directory",
+      "title": "Employee Directory",
+      "icon": "ContactList",
+      "body": "Find colleagues by name, department or office. All people listed are fictional.",
+      "links": [],
+      "resources": [
+        "Employee Directory"
+      ],
+      "navigation": false,
+      "parent": "HR"
+    },
+    {
+      "slug": "Leave-Requests",
+      "title": "Leave Requests",
+      "icon": "Calendar",
+      "body": "Plan your time off and track the status of requests.",
+      "links": [],
+      "resources": [
+        "Leave Requests Demo"
+      ],
+      "navigation": false,
+      "parent": "HR",
+      "content": [
+        {
+          "heading": "Before you submit",
+          "bullets": [
+            "Vacation: two weeks of notice",
+            "Personal: one week of notice",
+            "Sick leave: let your manager know the same day"
+          ]
+        }
+      ],
+      "form": {
+        "label": "Submit a leave request",
+        "list": "Leave Requests Demo"
+      }
+    },
+    {
+      "slug": "Benefits",
+      "title": "Benefits",
+      "icon": "Heart",
+      "body": "Benefits that support your health, family, finances and growth.",
+      "links": [],
+      "resources": [
+        "HR Policies"
+      ],
+      "navigation": false,
+      "parent": "HR",
+      "content": [
+        {
+          "heading": "Health",
+          "bullets": [
+            "Medical: two plans, company pays 80% of the employee premium",
+            "Dental and vision: company pays 75% of the premium"
+          ]
+        },
+        {
+          "heading": "Money and growth",
+          "bullets": [
+            "Retirement match up to 4%",
+            "$400 yearly wellness allowance",
+            "$1,000 yearly learning allowance"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "Onboarding",
+      "title": "Onboarding",
+      "icon": "Checkbox",
+      "body": "Welcome to HRFlow. Follow this checklist through your first month.",
+      "links": [],
+      "resources": [
+        "Onboarding Checklist Demo",
+        "HR Policies"
+      ],
+      "navigation": false,
+      "parent": "HR"
+    },
+    {
+      "slug": "IT-Support",
+      "title": "IT Support",
+      "icon": "Headset",
+      "body": "Report a problem or request access, hardware or software. Do not include passwords.",
+      "links": [],
+      "resources": [
+        "IT Support Requests"
+      ],
+      "navigation": false,
+      "parent": "IT",
+      "form": {
+        "label": "Submit an IT request",
+        "list": "IT Support Requests"
+      }
+    },
+    {
+      "slug": "IT-FAQ",
+      "title": "IT FAQ",
+      "icon": "Unknown",
+      "body": "Quick fixes for common technical questions.",
+      "links": [
+        "IT-Support"
+      ],
+      "resources": [
+        "IT Documents"
+      ],
+      "navigation": false,
+      "parent": "IT",
+      "faq": [
+        {
+          "q": "How do I reset my password?",
+          "a": "Use the self-service reset link on the sign-in page, or submit an IT request."
+        },
+        {
+          "q": "I changed phones. How do I move my authenticator?",
+          "a": "Submit an IT request with the category Access."
+        },
+        {
+          "q": "How do I request new software?",
+          "a": "Submit an IT request with the category Software and include a business reason."
+        },
+        {
+          "q": "I received a suspicious email. What should I do?",
+          "a": "Do not open links. Report it to IT Support immediately."
+        }
+      ]
+    },
+    {
+      "slug": "Expenses",
+      "title": "Expenses",
+      "icon": "PaymentCard",
+      "body": "Claim business expenses and track payment.",
+      "links": [],
+      "resources": [
+        "Expense Claims Demo",
+        "Finance Documents"
+      ],
+      "navigation": false,
+      "parent": "Finance",
+      "content": [
+        {
+          "heading": "Before you submit",
+          "bullets": [
+            "Get approval before spending more than $250",
+            "Submit within 30 days",
+            "Keep your receipts"
+          ]
+        }
+      ],
+      "form": {
+        "label": "Submit an expense claim",
+        "list": "Expense Claims Demo"
+      }
+    }
+  ],
+  "libraries": [
+    "HR Policies",
+    "IT Documents",
+    "Finance Documents",
+    "Training Resources"
+  ],
+  "lists": [
+    {
+      "name": "Employee Directory",
+      "titleLabel": "Name",
+      "fields": [
+        {
+          "name": "Department",
+          "label": "Department",
+          "type": "Choice",
+          "choices": [
+            "HR",
+            "IT",
+            "Finance"
+          ]
+        },
+        {
+          "name": "BusinessEmail",
+          "label": "Email",
+          "type": "Text"
+        },
+        {
+          "name": "JobTitle",
+          "label": "Job title",
+          "type": "Text"
+        },
+        {
+          "name": "Phone",
+          "label": "Phone",
+          "type": "Text"
+        },
+        {
+          "name": "Office",
+          "label": "Office",
+          "type": "Text"
+        }
+      ]
+    },
+    {
+      "name": "IT Support Requests",
+      "titleLabel": "Summary",
+      "fields": [
+        {
+          "name": "Category",
+          "label": "Category",
+          "type": "Choice",
+          "choices": [
+            "Access",
+            "Hardware",
+            "Software"
+          ],
+          "required": true
+        },
+        {
+          "name": "Description",
+          "label": "Description",
+          "type": "Note"
+        },
+        {
+          "name": "Priority",
+          "label": "Priority",
+          "type": "Choice",
+          "choices": [
+            "Low",
+            "Medium",
+            "High"
+          ],
+          "default": "Medium"
+        },
+        {
+          "name": "Status",
+          "label": "Status",
+          "type": "Choice",
+          "choices": [
+            "New",
+            "In Progress",
+            "Closed"
+          ],
+          "default": "New",
+          "hideOnNew": true
+        }
+      ]
+    },
+    {
+      "name": "Leave Requests Demo",
+      "titleLabel": "Employee name",
+      "fields": [
+        {
+          "name": "StartDate",
+          "label": "Start date",
+          "type": "DateTime",
+          "required": true
+        },
+        {
+          "name": "EndDate",
+          "label": "End date",
+          "type": "DateTime",
+          "required": true
+        },
+        {
+          "name": "LeaveType",
+          "label": "Leave type",
+          "type": "Choice",
+          "choices": [
+            "Vacation",
+            "Sick",
+            "Personal",
+            "Parental"
+          ],
+          "default": "Vacation"
+        },
+        {
+          "name": "Reason",
+          "label": "Reason",
+          "type": "Note"
+        },
+        {
+          "name": "Status",
+          "label": "Status",
+          "type": "Choice",
+          "choices": [
+            "Pending",
+            "Approved",
+            "Rejected"
+          ],
+          "default": "Pending",
+          "hideOnNew": true
+        }
+      ]
+    },
+    {
+      "name": "Expense Claims Demo",
+      "titleLabel": "Description",
+      "fields": [
+        {
+          "name": "ClaimEmployee",
+          "label": "Employee name",
+          "type": "Text",
+          "required": true
+        },
+        {
+          "name": "Amount",
+          "label": "Amount",
+          "type": "Currency",
+          "required": true
+        },
+        {
+          "name": "ExpenseType",
+          "label": "Expense type",
+          "type": "Choice",
+          "choices": [
+            "Meals",
+            "Travel",
+            "Hotel",
+            "Supplies",
+            "Training"
+          ]
+        },
+        {
+          "name": "ExpenseDate",
+          "label": "Expense date",
+          "type": "DateTime",
+          "required": true
+        },
+        {
+          "name": "Status",
+          "label": "Status",
+          "type": "Choice",
+          "choices": [
+            "Submitted",
+            "Approved",
+            "Paid",
+            "Rejected"
+          ],
+          "default": "Submitted",
+          "hideOnNew": true
+        }
+      ]
+    },
+    {
+      "name": "Training Courses Demo",
+      "titleLabel": "Course",
+      "fields": [
+        {
+          "name": "Format",
+          "label": "Format",
+          "type": "Choice",
+          "choices": [
+            "Online",
+            "Classroom",
+            "Virtual"
+          ]
+        },
+        {
+          "name": "Duration",
+          "label": "Duration",
+          "type": "Text"
+        },
+        {
+          "name": "CourseDate",
+          "label": "Next date",
+          "type": "DateTime"
+        },
+        {
+          "name": "CourseType",
+          "label": "Type",
+          "type": "Choice",
+          "choices": [
+            "Required",
+            "Optional"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Training Registrations Demo",
+      "titleLabel": "Employee name",
+      "fields": [
+        {
+          "name": "Course",
+          "label": "Course",
+          "type": "Choice",
+          "choices": [
+            "Security Awareness",
+            "Workplace Conduct",
+            "Data Privacy Basics",
+            "Excel for Business",
+            "Leading Your First Team",
+            "Giving Useful Feedback"
+          ],
+          "required": true
+        },
+        {
+          "name": "PreferredDate",
+          "label": "Preferred date",
+          "type": "DateTime"
+        },
+        {
+          "name": "Notes",
+          "label": "Notes",
+          "type": "Note"
+        },
+        {
+          "name": "Status",
+          "label": "Status",
+          "type": "Choice",
+          "choices": [
+            "Requested",
+            "Confirmed",
+            "Completed"
+          ],
+          "default": "Requested",
+          "hideOnNew": true
+        }
+      ]
+    },
+    {
+      "name": "Onboarding Checklist Demo",
+      "titleLabel": "Task",
+      "fields": [
+        {
+          "name": "Phase",
+          "label": "Phase",
+          "type": "Choice",
+          "choices": [
+            "Before day one",
+            "First day",
+            "First week",
+            "First month"
+          ]
+        },
+        {
+          "name": "TaskOwner",
+          "label": "Owner",
+          "type": "Choice",
+          "choices": [
+            "HR",
+            "IT",
+            "Manager",
+            "New employee"
+          ]
+        },
+        {
+          "name": "Status",
+          "label": "Status",
+          "type": "Choice",
+          "choices": [
+            "Not started",
+            "In progress",
+            "Done"
+          ],
+          "default": "Not started"
+        }
+      ]
+    },
+    {
+      "name": "HR Questions Demo",
+      "titleLabel": "Your name",
+      "fields": [
+        {
+          "name": "Topic",
+          "label": "Topic",
+          "type": "Choice",
+          "choices": [
+            "Benefits",
+            "Leave",
+            "Payroll",
+            "Policies",
+            "Other"
+          ],
+          "required": true
+        },
+        {
+          "name": "Question",
+          "label": "Question",
+          "type": "Note",
+          "required": true
+        },
+        {
+          "name": "Status",
+          "label": "Status",
+          "type": "Choice",
+          "choices": [
+            "New",
+            "Answered"
+          ],
+          "default": "New",
+          "hideOnNew": true
+        }
+      ]
+    }
+  ]
+}
